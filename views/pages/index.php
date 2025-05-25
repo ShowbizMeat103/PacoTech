@@ -5,13 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Tienda</title>
-
-  <link rel="stylesheet" href="estilos/pagina_principal.css" />
-  <link rel="stylesheet" href="estilos/pie_paguina.css"/>
-  <link rel="stylesheet" href="estilos/nosotros.css"/>
-  <link rel="stylesheet" href="estilos/carrito.css"/>
+  <link rel="stylesheet" href="styles/base.css" />
 </head>
 <body>
+
+<?php include 'scripts/nav.php'; ?>
+  <!-- 
+  
+  QUE QUEDE CLARO QUE PACO PUSO UN HEADER DENTRO DEL HEADER, NO SE PORQUE, PERO LO HIZO:
 
   <header>
     <div class="PacoTech">
@@ -27,8 +28,6 @@
         <a href="index.html" class="nav-btn">Registrarse</a>
         
       </nav>
-
-      <!-- Icono carrito -->
       <div class="icon-cart">
         <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
           <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -38,6 +37,7 @@
       </div>
     </header>
   </header>
+  -->
 
   <!-- CONTENEDOR PRODUCTOS -->
   <div class="container-items">
@@ -331,7 +331,8 @@
     </div>
   </div>
 
-  <!-- FOOTER IGUAL -->
+<!-- 
+
 <footer class="footer">
   <div class="main">
     <div class="about">
@@ -367,6 +368,8 @@
     <p>&copy; 2025 Inmobiliaria Vázquez. Un lugar para lavar dinero.</p>
   </div>
 </footer>
+-->
+
 
   <!-- Scripts -->
   <script src="script.js"></script>
