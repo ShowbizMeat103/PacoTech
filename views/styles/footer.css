@@ -1,0 +1,43 @@
+footer {
+  background-color: #b42734;
+  color: #fef7f2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+footer .about,
+footer .menu,
+footer .contact {
+  flex: 1;
+  margin: 1rem;
+  min-width: 200px;
+}
+
+footer .logo {
+  width: 100px;
+}
+
+footer .social img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li a {
+  color: #fef7f2;
+  text-decoration: none;
+}
+
+footer .copy {
+  width: 100%;
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 0.9rem;
+}
