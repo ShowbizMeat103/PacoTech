@@ -1,0 +1,88 @@
+body {
+  background-color: #b42734;
+  color: #fef7f2;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #1d1d2c;
+  padding: 100px 20px;
+  text-align: center;
+  animation: fadeIn 1.2s ease-out;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #fef7f2;
+}
+
+.hero-content p {
+  font-size: 1.3rem;
+  color: #fef7f2;
+  opacity: 0.9;
+}
+
+/* About Section */
+.about {
+  padding: 80px 20px;
+  background-color: #b42734;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #fef7f2;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.about p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+/* Contributors Section */
+.contributors {
+  padding: 80px 20px;
+  background-color: #1d1d2c;
+  text-align: center;
+}
+
+.contributors h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #fef7f2;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.contributors ul {
+  list-style: none;
+  padding: 0;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contributors li {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+/* Animación*/
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

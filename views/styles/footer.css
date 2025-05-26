@@ -1,60 +1,43 @@
-/* Pie de página */
-.footer {
-  background: #2b1b12;
-  color: #fff;
-  padding: 4rem 2rem 2rem;
-  text-align: center;
-}
-.footer .main {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 3rem;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-.footer img {
-  width: 150px;
-  margin-bottom: 1.5rem;
-}
-.footer h3 {
-  position: relative;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1.5rem;
-}
-.footer h3::after {
-  content: "";
-  position: absolute;
-  bottom: 0; left: 0;
-  width: 40px; height: 3px;
-  background: #ddc7bb;
-}
-.footer a,
-.footer p {
-  color: #ddc7bb;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-.footer a:hover {
-  color: #fff;
-}
-.social a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px; height: 40px;
-  margin-right: 0.5rem;
-  background: rgba(255,255,255,0.1);
-  border-radius: 50%;
-  transition: background 0.3s, transform 0.3s;
-}
-.social a:hover {
-  background: #ddc7bb;
-  color: #2b1b12;
-  transform: translateY(-3px);
-}
-.footer .copy {
-  margin-top: 3rem;
-  padding-top: 2rem;
-  border-top: 1px solid rgba(255,255,255,0.1);
+footer {
+  background-color: #b42734;
+  color: #fef7f2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem;
+  font-family: sans-serif;
 }
 
+footer .about,
+footer .menu,
+footer .contact {
+  flex: 1;
+  margin: 1rem;
+  min-width: 200px;
+}
+
+footer .logo {
+  width: 100px;
+}
+
+footer .social img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li a {
+  color: #fef7f2;
+  text-decoration: none;
+}
+
+footer .copy {
+  width: 100%;
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 0.9rem;
+}

@@ -12,7 +12,7 @@
 </head>
 <body>
 
-    <?php include '../../scripts/nav.php'; ?>
+    <?php include '../../scripts/navbar.php'; ?>
 
     <main class="profile-container">
         <h1>Perfil de Javas</h1>
@@ -28,7 +28,7 @@
         </div>
     </main>
 
-    <?php include '../../scripts/footer.php'; ?>
+    <?php include '../../scripts/footer.html'; ?>
 
     <script src="script.js"></script>
   

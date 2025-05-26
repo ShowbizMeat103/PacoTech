@@ -6,9 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Tienda</title>
-  <link rel="stylesheet" href="styles/navbar.css"/>
-  <link rel="stylesheet" href="styles/footer.css"/>
-  <link rel="stylesheet" href="styles/index.css"/>
+  <link rel="stylesheet" href="../styles/navbar.css"/>
+  <link rel="stylesheet" href="../styles/footer.css"/>
+  <link rel="stylesheet" href="../styles/index.css"/>
 </head>
 
 <body>

@@ -4,7 +4,7 @@
     <a href="index.php" class="nav-btn">Inicio</a>
     <a href="cart.php" class="nav-btn">Carrito</a>
     <a href="us.php" class="nav-btn">Nosotros</a>
-    <a href="perfil.php" class="nav-btn">Perfil</a>
+    <a href="profile.php" class="nav-btn">Perfil</a>
   </nav>
 </header>
 
